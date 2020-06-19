@@ -1,5 +1,5 @@
 {
-  "name": "@doesdev/rollup-plugin-resolve-snabbdom",
+  "name": "rollup-plugin-resolve-snabbdom",
   "version": "1.0.0",
   "description": "Extremely crude \"just make it work\" resolution for Snabbdom >= 1.0.0",
   "main": "index.js",
