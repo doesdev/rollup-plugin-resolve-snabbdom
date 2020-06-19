@@ -1,4 +1,4 @@
-# rollup-plugin-resolve-snabbdom [![NPM version](https://badge.fury.io/js/@doesdev/rollup-plugin-resolve-snabbdom.svg)](https://npmjs.org/package/@doesdev/rollup-plugin-resolve-snabbdom)
+# rollup-plugin-resolve-snabbdom [![NPM version](https://badge.fury.io/js/rollup-plugin-resolve-snabbdom.svg)](https://npmjs.org/package/rollup-plugin-resolve-snabbdom)
 
 > Extremely crude "just make it work" resolution for Snabbdom >= 1.0.0
 
