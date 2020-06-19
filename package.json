@@ -1,0 +1,33 @@
+{
+  "name": "@doesdev/rollup-plugin-resolve-snabbdom",
+  "version": "1.0.0",
+  "description": "Extremely crude \"just make it work\" resolution for Snabbdom >= 1.0.0",
+  "main": "index.js",
+  "module": "module.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build && git add . -A"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doesdev/rollup-plugin-resolve-snabbdom.git"
+  },
+  "keywords": [
+    "rollup",
+    "snabbdom"
+  ],
+  "author": "Andrew Carpenter (@doesdev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doesdev/rollup-plugin-resolve-snabbdom/issues"
+  },
+  "homepage": "https://github.com/doesdev/rollup-plugin-resolve-snabbdom#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "rollup": "^2.17.0"
+  }
+}
